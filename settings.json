@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "Szymolo15mc.aternos.me",
+    "ip": "panga.aternos.host",
     "port": 41537,
     "version": "1.20.4",
     "try-creative": false
