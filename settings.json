@@ -7,7 +7,7 @@
   },
   "server": {
     "ip": "Szymolo15mc.aternos.me",
-    "port": 25565,
+    "port": 41537,
     "version": "1.20.4",
     "try-creative": false
   },
@@ -27,38 +27,38 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
-      "repeat": false,
+      "enabled": true,
+      "repeat": true,
       "repeat-delay": 120,
       "messages": [
         "Subskrybuj Szymola15"
       ]
     },
-    "chat-log": false,
+    "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 12000,
-    "max-reconnect-delay": 120000
+    "max-reconnect-delay": 2000
   },
   "movement": {
-    "enabled": false,
+    "enabled": true,
     "circle-walk": {
-      "enabled": false,
+      "enabled": true,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": false,
+      "enabled": true,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": false,
+      "enabled": true,
       "interval": 10000
     }
   },
   "modules": {
-    "avoidMobs": false,
-    "combat": false,
-    "beds": false,
+    "avoidMobs": true,
+    "combat": true,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
@@ -75,11 +75,11 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": false,
-      "chat": false
+      "disconnect": true,
+      "chat": true
     }
   },
   "chat": {
-    "respond": false
+    "respond": true
   }
 }
